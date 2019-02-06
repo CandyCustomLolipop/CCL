@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Dayla Crabtree, Bilen Dolly">
+  <title>Candy Custom</title>
+  <link rel="stylesheet" href="../lib/w3.css"> <!-- external link from w3schools -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+  .w3-tangerine {
+    font-family: "Tangerine", serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(153, 0, 0);
+    text-align: center;
+    left: 100px;
+    }
+  </style>
+  <script src="clipart.js"></script>
+
+  <script>
+    function myFunction() {
+      document.getElementById("sign").reset();
+    }
+  </script>
+</head>
+<body>
+
+  <div class="page-wrap"> <!-- Aligns page -->
+
+  <div class="w3-container w3-tangerine">
+  <p class="w3-jumbo">
+    <img src="images/logo.png" alt="logo" class="" height="100" width="100"></img>
+    Candy Custom Lolipop's
+  </p> <!-- Header -->
+</div>
+
+    <!-- Navigation -->
+    <ul id="nav">
+      <div>
+        <li><a class="navButton navHover" href="index.php">Home</a>
+        </li>
+      </div>
+
+      <div class="dropdown"> <!-- Edit Home button colors when this class is removed. -->
+        <li><a class="navButton navHover" href="login.php">Login</a>
+        </li>
+      </div>
+
+      <div class="dropdown"> <!-- Edit Home button colors when this class is removed. -->
+        <li><a class="navButton navHover" href="sign_up.php">Sign up</a>
+        </li>
+      </div>
+
+      <div class="dropdown"> <!-- Edit Home button colors when this class is removed. -->
+        <li><a class="navButton navHover" href="about.html5">About</a>
+        </li>
+      </div>
+
+      <div class="dropdown"> <!-- Edit Home button colors when this class is removed. -->
+        <li><a class="navButton navHover" href="store.php">Store</a>
+        </li>
+      </div>
+    </ul>
+
+    <br><br><br>
+
+		<div class="backBox">
+
+		<h5> History: </h5>
+		<p class="test">Candy Custom Lollipops brings your needs to  the future of
+       candy customization.  We are a startup candy company
+       aimed at making customizable lollipops for any occasion.
+		</p>
+
+<br><br><br><br>
+		<h5> Mission: </h5>
+		<p class="test">To bring joy and happiness through candy!</p>
+
+		<br><br><br><br><br>
+		<h5 > Contract </h5>
+		<p class="test">
+			We offer a 100% money back guarantee.  If you are not completely <br> satisfied
+			with your order we will refund your money or replace your order.
+		</p>
+
+		<br><br>
+
+		<a href="" class="regular">Contact</a>
+		<a href="" class="regular">FAQ</a>
+		<a href="" class="regular">Feedback</a>
+	</div>
+	<br><br><br><br>
+
+	<!-- Footer for website -->
+	<footer>
+
+		<p>Candy Custom Lollipop's <br>
+		852 Candy Lane <br>
+		Columbus, OH 45612 <br>
+		&copy;
+		<script type="text/javascript">
+		  document.write(new Date().getFullYear());
+		</script>, Candy Custom Lolipop's
+	</p>
+
+		<dl>
+			<dt>Contact:</dt>
+			<dd>Phone: 614-555-1111</dd>
+			<dd>Fax: 614-555-1112</dd>
+			<dd><a href="" class="regular">FAQ</a></dd>
+			<dd><a href="" class="regular">Feedback</a></dd>
+		</dl>
+
+		<dl>
+		<dt>Developers:</dt>
+		<dd>Laura Lamping</dt>
+		<dd>Dayla Crabtree</dt>
+		<dd>Kevin Martin</dt>
+		<dd>Sue McMillen</dt>
+		<dd>Bilen Haile</dt>
+	  </dl>
+
+		<dl>
+			<dt>Sponsers:</dt>
+				<dd><a href="http://www.mms.com">M&M'S® Official Website</a></dd>
+				<dd><a href="https://www.cscc.edu/">Columbus State Community College</a></dd>
+				<dd><a href="https://www.codecademy.com/">Code Academy</a></dd>
+				<dd><a href="https://www.visualstudio.com/">Visual Studio</a></dd>
+				<dd><a href="https://developer.android.com/studio/index.html">Android Studio</a></dd>
+		</dl>
+
+		<!-- Links for external social media and advertising -->
+		<a href="https://www.facebook.com/Candy-Custom-Lollipops-1376946465784348/" class="" target="_blank">
+			<img src="images/fb_logo.png" alt="logo" class="" height="25" width="25"></img>
+		</a>
+		<a href="" target="_blank"><img src="images/twitter_logo.png" alt="logo" class="" height="30" width="30"></img></a>
+		<a href="https://www.pinterest.com/daylacrabtree/pins/" target="_blank"><img src="images/pin_logo.png" alt="logo" class="" height="30" width="30"></a>
+
+	</footer>
+
+</body>
+</html>

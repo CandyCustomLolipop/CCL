@@ -1,0 +1,231 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 230, 128),
+    rgb(255, 230, 128) 55%,
+     rgb(230, 0, 92) 55%
+  );
+  /* The rectangle in which to repeat.
+     It can be fully wide in this case */
+  background-size: 100% 520px;
+  background-color: rgb(255, 230, 128) ; /*yellow*/
+  margin: 0px;
+  position: absolute; /*Aligns page for colors */
+  top: 12px;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -50px;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h3 {
+  text-decoration: underline;
+  padding-left: 3px;
+  float: left;
+}
+
+h5 {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: normal;
+  display: inline;
+  text-shadow: 2px 2px 4px #444547;
+}
+
+p {
+  line-height: 1.3;
+}
+
+/* Navigation */
+li {
+    float: left;
+    padding: 20px;
+}
+
+/* Space navigation buttons are in */
+#nav {
+  list-style-type: none;
+  width: 170%;
+  padding-bottom: 10px;
+}
+
+/* May be added later to grow buttons for navigation */
+
+/*
+.grow { transition: all .2s ease-in-out;
+position: absolute;}
+.grow:hover { transform: scale(1.5); }
+*/
+.navButton {
+  background: repeating-radial-gradient(
+    circle,
+    rgb(255, 153, 51),
+    rgb(255, 153, 51) 3px,
+    rgb(204, 68, 0) 5px,
+    rgb(204, 68, 0) 10px
+  );
+  border: 2px solid rgb(204, 68, 0);
+  border-radius: 50%;
+  color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: 4px 2px 3px rgb(204, 68, 0);
+  font-family: cursive;
+  font-size: 16px;
+  /*display: block;*/
+  width: 25px;
+  height: 15px;
+}
+
+/* Navigation button hover effect "pink"*/
+a.navHover:hover {
+  background: repeating-radial-gradient(
+    circle,
+    rgb(255, 0, 102),
+    rgb(255, 153, 51) 10px,
+    rgb(255, 0, 102) 5px,
+    rgb(255, 153, 51) 3px
+  );
+}
+
+a.regular:hover {
+  color: #000000;
+}
+
+/* Area for about page content */
+.backBox {
+  background-clip: border-box;
+  color: #ffffff;
+  padding: 5px;
+  padding-top: 45px;
+  width: 550px;
+  height: inherit;
+  float:inherit;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  line-height: .1;
+}
+
+.test {
+  font-size: 15px;
+}
+
+.products {
+  -webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+}
+
+/* This will display sample products in a box */
+.sample {
+  border: 2px #000000;
+  border-radius: 7px;
+  background-color: rgb(239, 239, 239);
+  padding: 3px;
+  width: 200px;
+  height: 200px;
+  color: rgb(56, 118, 29);
+}
+
+/* Will be for the login form design */
+.login {
+  border: 2px;
+  border-radius: 40px;
+  background-color: rgb(234, 209, 220);
+  width: 270px;
+  height: 130px;
+  text-decoration: underline;
+  position: absolute;
+  padding: 10px;
+  left: 400px;
+  bottom: 20px;
+}
+
+form {
+  text-align: right;
+}
+
+/* Design for sign up form */
+.sign_up {
+  background-color: rgb(234, 209, 220);
+  border-radius: 60px;
+  padding: 20px;
+  width: 106%;
+  position: absolute;
+  left: 100px;
+}
+
+.candy {
+  background-color: rgb(252, 229, 205);
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+input {
+  border: none;
+  background: #f1f1f1;
+  height:30px;
+  padding: 2px;
+}
+
+input:focus {
+  background-color: #ddd;
+}
+
+button {
+  float: right;
+  background-color: rgb(255, 153, 0);
+  border: none;
+  border-radius: 100px;
+  width: 20%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+label {
+  padding-left: 35px;
+  font-weight:bold;
+  float: left;
+}
+
+footer {
+  font-style: italic;
+  border-top: 10px solid rgb(255, 153, 51);
+  background-color: rgb(204, 68, 0);
+  height: 140px;
+  -webkit-column-count: 5; /* Chrome, Safari, Opera */
+   -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+  position: absolute;
+  left: -231.5px;
+  right: -471.5px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  padding-top: 20px;
+}
+
+dl {
+  line-height: 15px;
+  background-color: #CC6718;
+  padding: 4px;
+}
+
+dt {
+  text-shadow: 2px 2px 4px #444547;
+}
+
+dd {
+  font-size: 12px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Dayla Crabtree, Bilen Dolly">
+  <title>Candy Custom</title>
+  <link rel="stylesheet" href="../lib/w3.css"> <!-- external link from w3schools -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  .w3-tangerine {
+    font-family: "Tangerine", serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(153, 0, 0);
+    text-align: center;
+    left: 100px;
+    }
+  </style>
+
+  <script>
+    function myFunction() {
+      document.getElementById("sign").reset();
+    }
+  </script>
+</head>
+<body>
+
+  <div class="page-wrap"> <!-- Aligns page -->
+
+  <div class="w3-container w3-tangerine">
+  <p class="w3-jumbo">
+    <img src="images/logo.png" alt="logo" class="" height="100" width="100"></img>
+    Candy Custom Lolipop's
+  </p> <!-- Header -->
+</div>
+
+    <!-- Navigation -->
+    <ul id="nav">
+      <div>
+        <li><a class="navButton navHover" href="index.html">Home</a>
+        </li>
+      </div>
+
+      <div class="dropdown"> <!-- Edit Home button colors when this class is removed. -->
+        <li><a class="navButton navHover" href="login.html">Login</a>
+        </li>
+      </div>
+
+      <div class="dropdown"> <!-- Edit Home button colors when this class is removed. -->
+        <li><a class="navButton navHover" href="sign_up.html">Sign up</a>
+        </li>
+      </div>
+
+      <div class="dropdown"> <!-- Edit Home button colors when this class is removed. -->
+        <li><a class="navButton navHover" href="about.html">About</a>
+        </li>
+      </div>
+
+      <div class="dropdown"> <!-- Edit Home button colors when this class is removed. -->
+        <li><a class="navButton navHover" href="store.html">Store</a>
+        </li>
+      </div>
+    </ul>
+
+    <br><br><br>
+
+      <form id="" action="" method="post" action="" class="candy">
+        <div style="position: relative; left: 0; top: 0;">
+          <img src="a.jpg" style="position: relative; top: 0; left: 0;"/>
+          <img src="b.jpg" style="position: absolute; top: 50px; left: 0px;"/>
+        </div>
+
+<select id="mySelect" size="8">
+    <option></option>
+
+  </select>
+        <label>Color:</label><input type="color">
+        <label>Quantity:</label><input type="number">
+        <label>Price:</label>
+      </form>
+
+</body>
+</html>
